@@ -7,7 +7,7 @@ public class Main {
         System.out.print("Answer: ");
         for (int i = 0; i < 10; i++) {
             Task[i] = i;
-            if (i % 2 == 1) {
+            if (i % 2 == 0) {
                 a += i;
             }
             System.out.print(a + " ");
